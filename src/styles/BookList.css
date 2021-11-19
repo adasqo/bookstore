@@ -1,0 +1,38 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bookList {
+    width: 90vw;
+    max-width: 1170px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.btnAddBook{
+  background-color: #3d7bcc;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 30px;
+  width: 10rem;
+  margin-left: 45%;
+}
+.btnAddBook:hover {
+  background: #6791c9;
+  cursor:pointer;
+}
+.btnAddBook[disabled] {
+  background: #9cbbe4;
+  cursor:auto;
+}

@@ -1,0 +1,38 @@
+
+.btn {
+    background-color: #3d7bcc; 
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin: 10px;
+}
+.btn:hover {
+    background: #6791c9;
+    cursor:pointer;
+}
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+h3 {
+    margin-top: 0.5rem;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+a {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+

@@ -1,0 +1,52 @@
+.container input {
+    background: var(--clr-grey-10);
+    border-color: transparent;
+    border-radius: var(--radius);
+    padding: 0.25rem 0.5rem;
+    background: #dfe0e2;
+    margin: 0.5rem;
+}
+.form-control {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+    border-color: transparent;
+    background: #f8f9fa;
+}
+.container .btn button {
+    display: inline-block;
+    background: var(--clr-black);
+    color: var(--clr-white);
+    border-color: transparent;
+    margin-top: 1rem;
+    letter-spacing: var(--spacing);
+    padding: 0.15rem 0.25rem;
+    text-transform: capitalize;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+.formButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.btnSubmit{
+    background-color: #3d7bcc; /* Green */
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin: 10px;
+    width: 5rem;
+  }
+  .btnSubmit:hover {
+    background: #6791c9;
+    cursor:pointer;
+  }
+  .btnSubmit[disabled] {
+    background: #9cbbe4;
+    cursor:auto;
+  }
