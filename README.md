@@ -3,7 +3,7 @@
 The purpose of this project is to build a simple single page application written in React.
 
 ## Application start 
-### `git clone`
+### `git clone https://github.com/adasqo/bookstore.git`
 Clones repo on your local machine.
 ### `npm install`
 Installs all necessary dependencies.
